@@ -1,6 +1,6 @@
-import {AuthStateInterface} from "../../interfaces/authState.interface";
+import {AuthStateInterface} from "../interfaces/authState.interface";
 import {Action, createReducer, on} from "@ngrx/store";
-import {registerAction} from "./register.action";
+import {registerAction} from "./actions/register.action";
 
 const initialState: AuthStateInterface = {
   isSubmitting: false
